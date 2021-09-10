@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-baloo {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-secondary {
+  color: #00A5c4;
+}
+
+.color-secondary-bg {
+  background: #00A5c4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.03);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button:hover {
+  background: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev,
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  font-size: 40px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+/*# sourceMappingURL=style.css.map */
